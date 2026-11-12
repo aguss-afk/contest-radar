@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A quiet, chronological calendar of upcoming and live competitive programming contests.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Contest Radar</title>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("contest-radar:theme");
+        const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const dark = saved === "dark" || ((!saved || saved === "system") && systemDark);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-radar" viewBox="0 0 24 24">
+      <path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/>
+      <path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/>
+      <path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/>
+      <circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/>
+    </symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24">
+      <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+      <path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+      <path d="M8 16H3v5"/>
+    </symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/>
+      <path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/>
+      <path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/>
+      <path d="m19.07 4.93-1.41 1.41"/>
+    </symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24">
+      <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/>
+    </symbol>
+    <symbol id="i-search" viewBox="0 0 24 24">
+      <path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
+    </symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24">
+      <path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2"/>
+      <path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2"/>
+      <path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3"/>
+      <path d="M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/>
+      <path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3"/>
+    </symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/>
+      <line x1="12" x2="12.01" y1="16" y2="16"/>
+    </symbol>
+    <symbol id="i-wifi-off" viewBox="0 0 24 24">
+      <path d="M12 20h.01"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/>
+      <path d="M5 12.859a10 10 0 0 1 5.17-2.69"/><path d="M19 12.859a10 10 0 0 0-2.007-1.523"/>
+      <path d="M2 8.82a15 15 0 0 1 4.177-2.643"/><path d="M22 8.82a15 15 0 0 0-11.288-3.764"/>
+      <path d="m2 2 20 20"/>
+    </symbol>
+  </svg>
+
+  <div class="app">
+    <header class="masthead">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg class="icon"><use href="#i-radar"></use></svg>
+        </div>
+        <div class="brand-text">
+          <h1>Contest Radar</h1>
+          <p>Upcoming and live contests, one quiet list.</p>
+        </div>
+      </div>
+      <label class="search-box">
+        <svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg>
+        <input id="search" type="search" placeholder="Search contests" autocomplete="off" spellcheck="false" aria-label="Search contests">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <div class="actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to dark theme" title="Toggle theme (T)">
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+        </button>
+        <button id="refresh" class="pill-btn" type="button" title="Refresh contests (R)">
+          <svg class="icon" aria-hidden="true"><use href="#i-refresh"></use></svg>
+          <span>Refresh</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="status-strip">
+      <div class="status-live">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span id="status-text" aria-live="polite">Loading contests&hellip;</span>
+      </div>
+      <div class="status-updated" id="updated-text"></div>
+    </section>
+
+    <div class="toolbar">
+      <div id="filters" class="filters" role="group" aria-label="Filter by site"></div>
+    </div>
+
+    <main id="contest-list" class="contest-list" aria-live="polite" aria-busy="true">
+      <div class="skeleton-list" aria-hidden="true">
+        <div class="skeleton-row"></div>
+        <div class="skeleton-row"></div>
+        <div class="skeleton-row"></div>
+        <div class="skeleton-row"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div id="source-health" class="source-health"></div>
+      <div id="footer-meta" class="footer-meta"></div>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

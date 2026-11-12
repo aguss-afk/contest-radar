@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "generated_at": 1794523047,
+  "contests": [
+    {
+      "key": "atcoder:abc484",
+      "site": "atcoder",
+      "title": "AtCoder Beginner Contest 484",
+      "url": "https://atcoder.jp/contests/abc484",
+      "start": 1794657600,
+      "end": 1794663600,
+      "duration": 6000,
+      "kind": "contest",
+      "note": "Rated ≤ 1999",
+      "rated": null
+    },
+    {
+      "key": "leetcode:weekly-contest-528",
+      "site": "leetcode",
+      "title": "Weekly Contest 528",
+      "url": "https://leetcode.com/contest/weekly-contest-528/",
+      "start": 1794709800,
+      "end": 1794715200,
+      "duration": 5400,
+      "kind": "contest",
+      "note": "Weekly",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2285",
+      "site": "codeforces",
+      "title": "Codeforces Round 1135 (Div. 2)",
+      "url": "https://codeforces.com/contest/2285",
+      "start": 1794753300,
+      "end": 1794760500,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "CF",
+      "rated": null
+    },
+    {
+      "key": "codechef:80671",
+      "site": "codechef",
+      "title": "Monday Munch - DSA Challenge 029 (Rated)",
+      "url": "https://www.codechef.com/DSAMONDAY029",
+      "start": 1794835800,
+      "end": 1794846600,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
+      "key": "codechef:79978",
+      "site": "codechef",
+      "title": "Starters 265",
+      "url": "https://www.codechef.com/START265",
+      "start": 1795012200,
+      "end": 1795019400,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
+      "key": "atcoder:abc485",
+      "site": "atcoder",
+      "title": "AtCoder Beginner Contest 485",
+      "url": "https://atcoder.jp/contests/abc485",
+      "start": 1795262400,
+      "end": 1795268400,
+      "duration": 6000,
+      "kind": "contest",
+      "note": "Rated ≤ 1999",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2287",
+      "site": "codeforces",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contest/2287",
+      "start": 1795271700,
+      "end": 1795278900,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "CF",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2288",
+      "site": "codeforces",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contest/2288",
+      "start": 1795271700,
+      "end": 1795278900,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "CF",
+      "rated": null
+    },
+    {
+      "key": "atcoder:arc234",
+      "site": "atcoder",
+      "title": "AtCoder Regular Contest++ 234",
+      "url": "https://atcoder.jp/contests/arc234",
+      "start": 1795348800,
+      "end": 1795357800,
+      "duration": 9000,
+      "kind": "contest",
+      "note": "Rated 1600 – 2999",
+      "rated": null
+    },
+    {
+      "key": "atcoder:abc486",
+      "site": "atcoder",
+      "title": "AtCoder Beginner Contest 486",
+      "url": "https://atcoder.jp/contests/abc486",
+      "start": 1795867200,
+      "end": 1795873200,
+      "duration": 6000,
+      "kind": "contest",
+      "note": "Rated ≤ 1999",
+      "rated": null
+    },
+    {
+      "key": "atcoder:ahc075",
+      "site": "atcoder",
+      "title": "AtCoder Heuristic Contest 075",
+      "url": "https://atcoder.jp/contests/ahc075",
+      "start": 1795946400,
+      "end": 1795960800,
+      "duration": 14400,
+      "kind": "contest",
+      "note": "Rated All",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2286",
+      "site": "codeforces",
+      "title": "Kotlin Heroes: Practice 15",
+      "url": "https://codeforces.com/contest/2286",
+      "start": 1796135400,
+      "end": 1796740200,
+      "duration": 604800,
+      "kind": "contest",
+      "note": "ICPC",
+      "rated": null
+    },
+    {
+      "key": "atcoder:abc487",
+      "site": "atcoder",
+      "title": "AtCoder Beginner Contest 487",
+      "url": "https://atcoder.jp/contests/abc487",
+      "start": 1796472000,
+      "end": 1796478000,
+      "duration": 6000,
+      "kind": "contest",
+      "note": "Rated ≤ 1999",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2282",
+      "site": "codeforces",
+      "title": "Kotlin Heroes: Episode 15",
+      "url": "https://codeforces.com/contest/2282",
+      "start": 1796740500,
+      "end": 1796749500,
+      "duration": 9000,
+      "kind": "contest",
+      "note": "ICPC",
+      "rated": null
+    },
+    {
+      "key": "hackerrank:405563",
+      "site": "hackerrank",
+      "title": "Orchestrate December'26",
+      "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-december26",
+      "start": 1797078600,
+      "end": 1797165000,
+      "duration": 86400,
+      "kind": "contest",
+      "note": "",
+      "rated": false
+    },
+    {
+      "key": "atcoder:agc080",
+      "site": "atcoder",
+      "title": "AtCoder Grand Contest 080",
+      "url": "https://atcoder.jp/contests/agc080",
+      "start": 1797163200,
+      "end": 1797174000,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "Rated ≥ 2400",
+      "rated": null
+    },
+    {
+      "key": "atcoder:agc081",
+      "site": "atcoder",
+      "title": "AtCoder Grand Contest 081",
+      "url": "https://atcoder.jp/contests/agc081",
+      "start": 1798372800,
+      "end": 1798383600,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "Rated ≥ 2400",
+      "rated": null
+    },
+    {
+      "key": "atcoder:agc082",
+      "site": "atcoder",
+      "title": "AtCoder Grand Contest 082",
+      "url": "https://atcoder.jp/contests/agc082",
+      "start": 1800187200,
+      "end": 1800198000,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "Rated ≥ 2400",
+      "rated": null
+    },
+    {
+      "key": "atcoder:agc083",
+      "site": "atcoder",
+      "title": "AtCoder Grand Contest 083",
+      "url": "https://atcoder.jp/contests/agc083",
+      "start": 1800792000,
+      "end": 1800802800,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "Rated ≥ 2400",
+      "rated": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "codeforces",
+      "name": "Codeforces",
+      "ok": true,
+      "count": 5,
+      "error": null,
+      "last_success": 1794523047
+    },
+    {
+      "id": "atcoder",
+      "name": "AtCoder",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "last_success": 1794523047
+    },
+    {
+      "id": "codechef",
+      "name": "CodeChef",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "last_success": 1794523047
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "last_success": 1794523047
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "last_success": 1794523047
+    },
+    {
+      "id": "hackerearth",
+      "name": "HackerEarth",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "last_success": 1794523047
+    }
+  ]
+}
