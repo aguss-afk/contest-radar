@@ -1,19 +1,7 @@
 {
   "schema": 1,
-  "generated_at": 1794757166,
+  "generated_at": 1794774918,
   "contests": [
-    {
-      "key": "codeforces:2285",
-      "site": "codeforces",
-      "title": "Codeforces Round 1135 (Div. 2)",
-      "url": "https://codeforces.com/contest/2285",
-      "start": 1794753300,
-      "end": 1794760500,
-      "duration": 7200,
-      "kind": "contest",
-      "note": "CF",
-      "rated": null
-    },
     {
       "key": "codechef:80671",
       "site": "codechef",
@@ -248,9 +236,9 @@
       "id": "codeforces",
       "name": "Codeforces",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     },
     {
       "id": "atcoder",
@@ -258,7 +246,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     },
     {
       "id": "codechef",
@@ -266,7 +254,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     },
     {
       "id": "leetcode",
@@ -274,7 +262,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     },
     {
       "id": "hackerrank",
@@ -282,7 +270,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     },
     {
       "id": "hackerearth",
@@ -290,7 +278,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1794757166
+      "last_success": 1794774918
     }
   ]
 }
