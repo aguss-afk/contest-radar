@@ -1,19 +1,7 @@
 {
   "schema": 1,
-  "generated_at": 1794812512,
+  "generated_at": 1794848400,
   "contests": [
-    {
-      "key": "codechef:80671",
-      "site": "codechef",
-      "title": "Monday Munch - DSA Challenge 029 (Rated)",
-      "url": "https://www.codechef.com/DSAMONDAY029",
-      "start": 1794835800,
-      "end": 1794846600,
-      "duration": 10800,
-      "kind": "contest",
-      "note": "",
-      "rated": null
-    },
     {
       "key": "codechef:79978",
       "site": "codechef",
@@ -238,7 +226,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     },
     {
       "id": "atcoder",
@@ -246,15 +234,15 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     },
     {
       "id": "codechef",
       "name": "CodeChef",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     },
     {
       "id": "leetcode",
@@ -262,7 +250,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     },
     {
       "id": "hackerrank",
@@ -270,7 +258,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     },
     {
       "id": "hackerearth",
@@ -278,7 +266,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1794812512
+      "last_success": 1794848400
     }
   ]
 }
