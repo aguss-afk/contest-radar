@@ -1,19 +1,7 @@
 {
   "schema": 1,
-  "generated_at": 1794988615,
+  "generated_at": 1795021217,
   "contests": [
-    {
-      "key": "codechef:79978",
-      "site": "codechef",
-      "title": "Starters 265 (Rated for 6 Star)",
-      "url": "https://www.codechef.com/START265",
-      "start": 1795012200,
-      "end": 1795019400,
-      "duration": 7200,
-      "kind": "contest",
-      "note": "",
-      "rated": null
-    },
     {
       "key": "atcoder:abc485",
       "site": "atcoder",
@@ -41,7 +29,7 @@
     {
       "key": "codeforces:2287",
       "site": "codeforces",
-      "title": "Codeforces Round (Div. 1)",
+      "title": "Codeforces Round 1136 (Div. 1)",
       "url": "https://codeforces.com/contest/2287",
       "start": 1795271700,
       "end": 1795278900,
@@ -53,7 +41,7 @@
     {
       "key": "codeforces:2288",
       "site": "codeforces",
-      "title": "Codeforces Round (Div. 2)",
+      "title": "Codeforces Round 1136 (Div. 2)",
       "url": "https://codeforces.com/contest/2288",
       "start": 1795271700,
       "end": 1795278900,
@@ -77,7 +65,7 @@
     {
       "key": "codeforces:2289",
       "site": "codeforces",
-      "title": "Codeforces Round (Div. 2)",
+      "title": "Codeforces Round 1137 (Div. 2)",
       "url": "https://codeforces.com/contest/2289",
       "start": 1795338300,
       "end": 1795345500,
@@ -96,6 +84,30 @@
       "duration": 9000,
       "kind": "contest",
       "note": "Rated 1600 – 2999",
+      "rated": null
+    },
+    {
+      "key": "codechef:82517",
+      "site": "codechef",
+      "title": "Monday Munch - DSA Challenge 030 (Rated)",
+      "url": "https://www.codechef.com/DSAMONDAY030",
+      "start": 1795440600,
+      "end": 1795451400,
+      "duration": 10800,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
+      "key": "codechef:79983",
+      "site": "codechef",
+      "title": "Starters 266",
+      "url": "https://www.codechef.com/START266",
+      "start": 1795617000,
+      "end": 1795624200,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
       "rated": null
     },
     {
@@ -238,7 +250,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     },
     {
       "id": "atcoder",
@@ -246,15 +258,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     },
     {
       "id": "codechef",
       "name": "CodeChef",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     },
     {
       "id": "leetcode",
@@ -262,7 +274,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     },
     {
       "id": "hackerrank",
@@ -270,7 +282,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     },
     {
       "id": "hackerearth",
@@ -278,7 +290,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1794988615
+      "last_success": 1795021217
     }
   ]
 }
