@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated_at": 1794961845,
+  "generated_at": 1794988615,
   "contests": [
     {
       "key": "codechef:79978",
       "site": "codechef",
-      "title": "Starters 265",
+      "title": "Starters 265 (Rated for 6 Star)",
       "url": "https://www.codechef.com/START265",
       "start": 1795012200,
       "end": 1795019400,
@@ -159,6 +159,18 @@
       "rated": null
     },
     {
+      "key": "atcoder:abc488",
+      "site": "atcoder",
+      "title": "AtCoder Beginner Contest 488",
+      "url": "https://atcoder.jp/contests/abc488",
+      "start": 1797076800,
+      "end": 1797082800,
+      "duration": 6000,
+      "kind": "contest",
+      "note": "Rated ≤ 1999",
+      "rated": null
+    },
+    {
       "key": "hackerrank:405563",
       "site": "hackerrank",
       "title": "Orchestrate December'26",
@@ -226,15 +238,15 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     },
     {
       "id": "atcoder",
       "name": "AtCoder",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     },
     {
       "id": "codechef",
@@ -242,7 +254,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     },
     {
       "id": "leetcode",
@@ -250,7 +262,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     },
     {
       "id": "hackerrank",
@@ -258,7 +270,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     },
     {
       "id": "hackerearth",
@@ -266,7 +278,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1794961845
+      "last_success": 1794988615
     }
   ]
 }
