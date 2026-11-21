@@ -1,31 +1,7 @@
 {
   "schema": 1,
-  "generated_at": 1795247060,
+  "generated_at": 1795275554,
   "contests": [
-    {
-      "key": "atcoder:abc485",
-      "site": "atcoder",
-      "title": "AtCoder Beginner Contest 485",
-      "url": "https://atcoder.jp/contests/abc485",
-      "start": 1795262400,
-      "end": 1795268400,
-      "duration": 6000,
-      "kind": "contest",
-      "note": "Rated ≤ 1999",
-      "rated": null
-    },
-    {
-      "key": "leetcode:biweekly-contest-196",
-      "site": "leetcode",
-      "title": "Biweekly Contest 196",
-      "url": "https://leetcode.com/contest/biweekly-contest-196/",
-      "start": 1795271400,
-      "end": 1795276800,
-      "duration": 5400,
-      "kind": "contest",
-      "note": "Weekly",
-      "rated": null
-    },
     {
       "key": "codeforces:2287",
       "site": "codeforces",
@@ -159,6 +135,18 @@
       "rated": null
     },
     {
+      "key": "codeforces:2291",
+      "site": "codeforces",
+      "title": "ICPC 2026 Online Challenge 2 powered by Huawei",
+      "url": "https://codeforces.com/contest/2291",
+      "start": 1796727600,
+      "end": 1797937200,
+      "duration": 1209600,
+      "kind": "contest",
+      "note": "IOI",
+      "rated": null
+    },
+    {
       "key": "codeforces:2282",
       "site": "codeforces",
       "title": "Kotlin Heroes: Episode 15",
@@ -260,17 +248,17 @@
       "id": "codeforces",
       "name": "Codeforces",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     },
     {
       "id": "atcoder",
       "name": "AtCoder",
       "ok": true,
-      "count": 11,
+      "count": 10,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     },
     {
       "id": "codechef",
@@ -278,15 +266,15 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     },
     {
       "id": "leetcode",
       "name": "LeetCode",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     },
     {
       "id": "hackerrank",
@@ -294,7 +282,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     },
     {
       "id": "hackerearth",
@@ -302,7 +290,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1795247060
+      "last_success": 1795275554
     }
   ]
 }
