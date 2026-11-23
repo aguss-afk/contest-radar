@@ -1,19 +1,7 @@
 {
   "schema": 1,
-  "generated_at": 1795432821,
+  "generated_at": 1795474146,
   "contests": [
-    {
-      "key": "codechef:82517",
-      "site": "codechef",
-      "title": "Monday Munch - DSA Challenge 030 (Rated)",
-      "url": "https://www.codechef.com/DSAMONDAY030",
-      "start": 1795440600,
-      "end": 1795451400,
-      "duration": 10800,
-      "kind": "contest",
-      "note": "",
-      "rated": null
-    },
     {
       "key": "codechef:79983",
       "site": "codechef",
@@ -24,6 +12,18 @@
       "duration": 7200,
       "kind": "contest",
       "note": "",
+      "rated": null
+    },
+    {
+      "key": "codeforces:2292",
+      "site": "codeforces",
+      "title": "Codeforces Round (Div. 3)",
+      "url": "https://codeforces.com/contest/2292",
+      "start": 1795790100,
+      "end": 1795798200,
+      "duration": 8100,
+      "kind": "contest",
+      "note": "ICPC",
       "rated": null
     },
     {
@@ -212,9 +212,9 @@
       "id": "codeforces",
       "name": "Codeforces",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     },
     {
       "id": "atcoder",
@@ -222,15 +222,15 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     },
     {
       "id": "codechef",
       "name": "CodeChef",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     },
     {
       "id": "leetcode",
@@ -238,7 +238,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     },
     {
       "id": "hackerrank",
@@ -246,7 +246,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     },
     {
       "id": "hackerearth",
@@ -254,7 +254,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1795432821
+      "last_success": 1795474146
     }
   ]
 }
