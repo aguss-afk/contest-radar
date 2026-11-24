@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": 1795474146,
+  "generated_at": 1795502661,
   "contests": [
     {
       "key": "codechef:79983",
@@ -17,7 +17,7 @@
     {
       "key": "codeforces:2292",
       "site": "codeforces",
-      "title": "Codeforces Round (Div. 3)",
+      "title": "Codeforces Round 1138 (Div. 3)",
       "url": "https://codeforces.com/contest/2292",
       "start": 1795790100,
       "end": 1795798200,
@@ -73,18 +73,6 @@
       "kind": "contest",
       "note": "ICPC",
       "rated": null
-    },
-    {
-      "key": "hackerrank:407567",
-      "site": "hackerrank",
-      "title": "RL Gym Hackathon",
-      "url": "https://www.hackerrank.com/contests/rl-gym-dec-26",
-      "start": 1796445000,
-      "end": 1797597000,
-      "duration": 1152000,
-      "kind": "contest",
-      "note": "",
-      "rated": false
     },
     {
       "key": "atcoder:abc487",
@@ -159,6 +147,18 @@
       "rated": null
     },
     {
+      "key": "codeforces:2293",
+      "site": "codeforces",
+      "title": "Educational Codeforces Round 197 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contest/2293",
+      "start": 1797258900,
+      "end": 1797266100,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "ICPC",
+      "rated": null
+    },
+    {
       "key": "atcoder:abc489",
       "site": "atcoder",
       "title": "UNIQUE VISION Programming Contest 2026 (ChristmasAtCoder Beginner Contest 489)",
@@ -212,9 +212,9 @@
       "id": "codeforces",
       "name": "Codeforces",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     },
     {
       "id": "atcoder",
@@ -222,7 +222,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     },
     {
       "id": "codechef",
@@ -230,7 +230,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     },
     {
       "id": "leetcode",
@@ -238,15 +238,15 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     },
     {
       "id": "hackerrank",
       "name": "HackerRank",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     },
     {
       "id": "hackerearth",
@@ -254,7 +254,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1795474146
+      "last_success": 1795502661
     }
   ]
 }
