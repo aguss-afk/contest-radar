@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": 1795753490,
+  "generated_at": 1795788511,
   "contests": [
     {
       "key": "codeforces:2292",
@@ -63,6 +63,18 @@
       "rated": null
     },
     {
+      "key": "codechef:84873",
+      "site": "codechef",
+      "title": "Starters 267",
+      "url": "https://www.codechef.com/START267",
+      "start": 1796221800,
+      "end": 1796229000,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
       "key": "hackerrank:407567",
       "site": "hackerrank",
       "title": "RL Gym Hackathon",
@@ -108,6 +120,18 @@
       "duration": 9000,
       "kind": "contest",
       "note": "ICPC",
+      "rated": null
+    },
+    {
+      "key": "codechef:84878",
+      "site": "codechef",
+      "title": "Starters 268",
+      "url": "https://www.codechef.com/START268",
+      "start": 1796826600,
+      "end": 1796833800,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
       "rated": null
     },
     {
@@ -159,6 +183,18 @@
       "rated": null
     },
     {
+      "key": "codechef:84884",
+      "site": "codechef",
+      "title": "Starters 269",
+      "url": "https://www.codechef.com/START269",
+      "start": 1797431400,
+      "end": 1797438600,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
       "key": "atcoder:abc489",
       "site": "atcoder",
       "title": "UNIQUE VISION Programming Contest 2026 (ChristmasAtCoder Beginner Contest 489)",
@@ -171,6 +207,18 @@
       "rated": null
     },
     {
+      "key": "codechef:84890",
+      "site": "codechef",
+      "title": "Starters 270",
+      "url": "https://www.codechef.com/START270",
+      "start": 1798036200,
+      "end": 1798043400,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
+      "rated": null
+    },
+    {
       "key": "atcoder:agc081",
       "site": "atcoder",
       "title": "AtCoder Grand Contest 081",
@@ -180,6 +228,18 @@
       "duration": 10800,
       "kind": "contest",
       "note": "Rated ≥ 2400",
+      "rated": null
+    },
+    {
+      "key": "codechef:84892",
+      "site": "codechef",
+      "title": "Starters 271",
+      "url": "https://www.codechef.com/START271",
+      "start": 1798641000,
+      "end": 1798648200,
+      "duration": 7200,
+      "kind": "contest",
+      "note": "",
       "rated": null
     },
     {
@@ -214,7 +274,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     },
     {
       "id": "atcoder",
@@ -222,15 +282,15 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     },
     {
       "id": "codechef",
       "name": "CodeChef",
       "ok": true,
-      "count": 0,
+      "count": 5,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     },
     {
       "id": "leetcode",
@@ -238,7 +298,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     },
     {
       "id": "hackerrank",
@@ -246,7 +306,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     },
     {
       "id": "hackerearth",
@@ -254,7 +314,7 @@
       "ok": true,
       "count": 0,
       "error": null,
-      "last_success": 1795753490
+      "last_success": 1795788511
     }
   ]
 }
